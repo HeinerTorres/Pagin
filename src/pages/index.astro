@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PrincipalHeader from "../components/PrincipalHeader.astro";
+import Section_1 from "../components/Section_1.astro";
+import Section_2 from "../components/Section_2.astro";
+---
+
+<Layout>
+  <PrincipalHeader />
+
+  <main class="snap-y snap-mandatory relative w-full h-full overflow-auto">
+    <div class="snap-center">
+      <Section_1 />
+    </div>
+
+    <div class="snap-center">
+      <Section_2 />
+    </div>
+  </main>
+</Layout>
